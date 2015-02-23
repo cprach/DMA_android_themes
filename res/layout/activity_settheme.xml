@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="25dp" 
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtActivityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_set_theme" />
+    
+    <TextView
+        android:id="@+id/txtSelectedTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty" />
+
+    <Button
+        android:id="@+id/btnSetWhiteTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_set_white_theme"
+        android:onClick="setActivityTheme" />
+    
+    <Button
+        android:id="@+id/btnSetBlueTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_set_blue_theme"
+        android:onClick="setActivityTheme" />
+    
+    <Button
+        android:id="@+id/btnSetRedTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_set_red_theme"
+        android:onClick="setActivityTheme" />
+
+</LinearLayout>
