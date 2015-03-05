@@ -5,7 +5,11 @@
         AppBaseTheme from BOTH res/values/styles.xml and
         res/values-v11/styles.xml on API 14+ devices.
     -->
+<<<<<<< HEAD
     <style name="AppBaseTheme" parent="Theme.Holo.Light">
+=======
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+>>>>>>> c03ee11f737dd4488bb9260da1bb96ec82b04c0b
         <!-- API 14 theme customizations can go here. -->
     </style>
 
